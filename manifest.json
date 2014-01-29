@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Bingoo",
+    "description": "Automatically redirect Bing Maps searches to Google Maps.",
+    "version": "1.0",
+
+    "permissions": [
+        "<all_urls>",
+        "tabs"
+    ],
+    "browser_action": {
+    },
+
+    "background": {
+        "scripts": [
+            "bingoo.js"
+        ]
+    }
+
+}
