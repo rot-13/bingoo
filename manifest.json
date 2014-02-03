@@ -9,8 +9,6 @@
         "<all_urls>",
         "tabs"
     ],
-    "browser_action": {
-    },
 
     "background": {
         "scripts": [
