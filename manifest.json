@@ -3,7 +3,7 @@
 
     "name": "Bingoo",
     "description": "Automatically redirect Bing Maps searches to Google Maps.",
-    "version": "1.0",
+    "version": "1.0.1",
 
     "permissions": [
         "<all_urls>",
