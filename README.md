@@ -1,5 +1,8 @@
 bingoo
 ======
+
+![image](https://github.com/iic-ninjas/bingoo/raw/master/images/bingoo128.png)
+
 Bing -> Google
 
 
