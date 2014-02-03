@@ -16,6 +16,10 @@
         "scripts": [
             "bingoo.js"
         ]
-    }
+    },
+    "icons": {
+        "16":  "images/bingoo16.png",
+        "48":  "images/bingoo48.png",
+        "128": "images/bingoo128.png" }
 
 }
