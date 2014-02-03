@@ -11,8 +11,10 @@ Annoyed that some websites (e.g. Facebook) will insist of opening addresses in B
 Installation
 -------------
 
-As this is a very initial version, only manual install is supported. Chrome Web Store support will be added later.
+There are two options for installing:
 
-Clone this repo somewhere and open the Chrome extensions window (Menu > Tools > Extensions). Make sure Developer Mode is marked, and click the "Load unpacked extension..." button. Select the directory where you cloned the repo. The extension should now be installed.
+1. Via **[Chrome Web Store](https://chrome.google.com/webstore/detail/bingoo/kbeineodhajigcapokfocpgdjhcpabon)**.
+
+2. Manually: Clone this repo somewhere and open the Chrome extensions window (Menu > Tools > Extensions). Make sure Developer Mode is marked, and click the "Load unpacked extension..." button. Select the directory where you cloned the repo. The extension should now be installed.
 
 **Enjoy!**
