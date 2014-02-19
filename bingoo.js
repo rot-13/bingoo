@@ -6,8 +6,14 @@ chrome.tabs.onUpdated.addListener(
             if (rtpIndex >= 0) {
                 var rtp = url.substr(rtpIndex + 4);
                 rtp = rtp.substr(0, rtp.indexOf('&'));
-                var address = rtp.substr(rtp.lastIndexOf('_') + 1);
-                chrome.tabs.update(tabId, {url: 'https://www.google.com/maps/preview/place/' + address});
+                var data = rtp.substr(rtp.indexOf('pos.') + 4).split('_');
+                var googleParam;
+                if (data.length >= 4) {
+                    googleParam = data.slice(3).join(', ');
+                } else {
+                    googleParam = data.slice(0,2).join(',');
+                }
+                chrome.tabs.update(tabId, {url: 'https://www.google.com/maps/preview/place/' + googleParam});
             }
         }
     }
