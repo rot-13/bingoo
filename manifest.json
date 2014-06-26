@@ -6,7 +6,7 @@
     "version": "1.0.2",
 
     "permissions": [
-        "<all_urls>",
+        "*://www.bing.com/*",
         "tabs"
     ],
 
